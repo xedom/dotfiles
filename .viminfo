@@ -11,18 +11,18 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<set\>
+~MSle0~/bin
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1657532422,,"wq"
+|2,0,1657554657,,"wq"
+:q
+|2,0,1657535489,,"q"
 :w
 |2,0,1653636218,,"w"
-:q
-|2,0,1653633198,,"q"
 :Q
 |2,0,1653633153,,"Q"
 :noremap
@@ -35,6 +35,10 @@ $
 |2,0,1653630011,,"/eth"
 
 # Search String History (newest to oldest):
+?/bin/bash
+|2,1,1657554635,47,"bin/bash"
+? @$
+|2,1,1657535487,,"@$"
 ? \<set\>
 |2,1,1653633024,,"\\<set\\>"
 ? nore
@@ -47,8 +51,6 @@ $
 |2,1,1653630034,,"\\<label\\>"
 ? eth
 |2,1,1653630011,,"eth"
-? @$
-|2,1,1653455450,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -58,70 +60,176 @@ $
 
 # Registers:
 "0	CHAR	0
-	/scripts
-|3,0,0,0,1,0,1653631417,"/scripts"
-"1	LINE	0
-	
-|3,0,1,1,1,0,1653635419,""
-"2	LINE	0
-	#scroll-down = ~/.config/polybar/sound.sh down &
-|3,0,2,1,1,0,1653635418,"#scroll-down = ~/.config/polybar/sound.sh down &"
-"3	LINE	0
-	#scroll-up = ~/.config/polybar/sound.sh up &
-|3,0,3,1,1,0,1653635418,"#scroll-up = ~/.config/polybar/sound.sh up &"
-"4	LINE	0
-	#click-left = ~/.config/polybar/sound.sh mute &
-|3,0,4,1,1,0,1653635417,"#click-left = ~/.config/polybar/sound.sh mute &"
-"5	LINE	0
-	#click-right = exec pavucontrol &
-|3,0,5,1,1,0,1653635417,"#click-right = exec pavucontrol &"
-"6	LINE	0
-	#exec = ~/.config/polybar/sound.sh
-|3,0,6,1,1,0,1653635417,"#exec = ~/.config/polybar/sound.sh"
-"7	LINE	0
-	interval = 2.0
-|3,0,7,1,1,0,1653635417,"interval = 2.0"
-"8	LINE	0
-	#label = "- %output% -"
-|3,0,8,1,1,0,1653635417,"#label = \"- %output% -\""
-"9	LINE	0
-	label = "bho"
-|3,0,9,1,1,0,1653635417,"label = \"bho\""
-""-	CHAR	0
 	s
-|3,1,36,0,1,0,1653636222,"s"
+|3,0,0,0,1,0,1657535487,"s"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1657535268,""
+"2	LINE	0
+	#exec startx
+|3,0,2,1,1,0,1657535267,"#exec startx"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1657535266,""
+"4	LINE	0
+	alias dotix='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+|3,0,4,1,1,0,1657535248,"alias dotix='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'"
+"5	LINE	0
+	alias ls='ls --color=auto'
+|3,0,5,1,1,0,1657535243,"alias ls='ls --color=auto'"
+"6	LINE	0
+	alias ls='ls --color=auto'
+|3,0,6,1,1,0,1657535231,"alias ls='ls --color=auto'"
+"7	LINE	0
+	
+|3,0,7,1,1,0,1653635419,""
+"8	LINE	0
+	#scroll-down = ~/.config/polybar/sound.sh down &
+|3,0,8,1,1,0,1653635418,"#scroll-down = ~/.config/polybar/sound.sh down &"
+"9	LINE	0
+	#scroll-up = ~/.config/polybar/sound.sh up &
+|3,0,9,1,1,0,1653635418,"#scroll-up = ~/.config/polybar/sound.sh up &"
+"-	CHAR	0
+	s
+|3,0,36,0,1,0,1653636222,"s"
 
 # File marks:
-'0  25  70  ~/.bashrc
-|4,48,25,70,1657532422,"~/.bashrc"
-'1  22  0  ~/.bashrc
-|4,49,22,0,1657532315,"~/.bashrc"
-'2  22  0  ~/.bashrc
-|4,50,22,0,1657532315,"~/.bashrc"
-'3  1  10  ~/reboot-win
-|4,51,1,10,1653636252,"~/reboot-win"
-'4  1  5  ~/reboot-win
-|4,52,1,5,1653636230,"~/reboot-win"
-'5  36  37  ~/.config/polybar/config.ini
-|4,53,36,37,1653635438,"~/.config/polybar/config.ini"
-'6  24  0  ~/.config/polybar/sound.sh
-|4,54,24,0,1653634861,"~/.config/polybar/sound.sh"
-'7  70  17  ~/.config/polybar/config.ini
-|4,55,70,17,1653634842,"~/.config/polybar/config.ini"
-'8  72  17  ~/.config/polybar/config.ini
-|4,56,72,17,1653634842,"~/.config/polybar/config.ini"
-'9  192  36  ~/.config/i3/config
-|4,57,192,36,1653633357,"~/.config/i3/config"
+'0  2  49  ~/.bin/boot-win
+|4,48,2,49,1657554657,"~/.bin/boot-win"
+'1  15  1  ~/.bashrc
+|4,49,15,1,1657549145,"~/.bashrc"
+'2  198  39  ~/.config/i3/config
+|4,50,198,39,1657538852,"~/.config/i3/config"
+'3  8  0  ~
+|4,51,8,0,1657535489,"~"
+'4  21  70  ~/.bashrc
+|4,52,21,70,1657532422,"~/.bashrc"
+'5  25  70  ~/.bashrc
+|4,53,25,70,1657532422,"~/.bashrc"
+'6  18  0  ~/.bashrc
+|4,54,18,0,1657532315,"~/.bashrc"
+'7  18  0  ~/.bashrc
+|4,55,18,0,1657532315,"~/.bashrc"
+'8  22  0  ~/.bashrc
+|4,56,22,0,1657532315,"~/.bashrc"
+'9  22  0  ~/.bashrc
+|4,57,22,0,1657532315,"~/.bashrc"
 
 # Jumplist (newest first):
+-'  2  49  ~/.bin/boot-win
+|4,39,2,49,1657554657,"~/.bin/boot-win"
+-'  1  0  ~/.bin/boot-win
+|4,39,1,0,1657554641,"~/.bin/boot-win"
+-'  15  1  ~/.bashrc
+|4,39,15,1,1657549145,"~/.bashrc"
+-'  15  1  ~/.bashrc
+|4,39,15,1,1657549145,"~/.bashrc"
+-'  198  39  ~/.config/i3/config
+|4,39,198,39,1657538852,"~/.config/i3/config"
+-'  198  39  ~/.config/i3/config
+|4,39,198,39,1657538852,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1657538822,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1657538822,"~/.config/i3/config"
+-'  8  0  ~
+|4,39,8,0,1657535489,"~"
+-'  8  0  ~
+|4,39,8,0,1657535489,"~"
+-'  8  0  ~
+|4,39,8,0,1657535489,"~"
+-'  8  0  ~
+|4,39,8,0,1657535489,"~"
+-'  21  0  ~/.bashrc
+|4,39,21,0,1657535241,"~/.bashrc"
+-'  21  0  ~/.bashrc
+|4,39,21,0,1657535241,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657535204,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657535204,"~/.bashrc"
+-'  25  70  ~/.bashrc
+|4,39,25,70,1657532422,"~/.bashrc"
+-'  25  70  ~/.bashrc
+|4,39,25,70,1657532422,"~/.bashrc"
+-'  25  70  ~/.bashrc
+|4,39,25,70,1657532422,"~/.bashrc"
+-'  25  70  ~/.bashrc
+|4,39,25,70,1657532422,"~/.bashrc"
+-'  25  70  ~/.bashrc
+|4,39,25,70,1657532422,"~/.bashrc"
+-'  25  70  ~/.bashrc
+|4,39,25,70,1657532422,"~/.bashrc"
+-'  25  70  ~/.bashrc
+|4,39,25,70,1657532422,"~/.bashrc"
 -'  25  70  ~/.bashrc
 |4,39,25,70,1657532422,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1657532400,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532400,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532400,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532400,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532400,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532400,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532400,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532400,"~/.bashrc"
+-'  18  0  ~/.bashrc
+|4,39,18,0,1657532315,"~/.bashrc"
 -'  22  0  ~/.bashrc
 |4,39,22,0,1657532315,"~/.bashrc"
 -'  22  0  ~/.bashrc
 |4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  18  0  ~/.bashrc
+|4,39,18,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1657532315,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532290,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532290,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532290,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532290,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532290,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532290,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657532290,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1657532290,"~/.bashrc"
 -'  1  10  ~/reboot-win
@@ -132,206 +240,137 @@ $
 |4,39,1,10,1653636252,"~/reboot-win"
 -'  1  10  ~/reboot-win
 |4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
+-'  1  10  ~/reboot-win
+|4,39,1,10,1653636252,"~/reboot-win"
 -'  1  5  ~/reboot-win
 |4,39,1,5,1653636230,"~/reboot-win"
 -'  1  5  ~/reboot-win
 |4,39,1,5,1653636230,"~/reboot-win"
--'  1  5  ~/reboot-win
-|4,39,1,5,1653636230,"~/reboot-win"
--'  1  5  ~/reboot-win
-|4,39,1,5,1653636230,"~/reboot-win"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  36  37  ~/.config/polybar/config.ini
-|4,39,36,37,1653635438,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1653634878,"~/.config/polybar/config.ini"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  24  0  ~/.config/polybar/sound.sh
-|4,39,24,0,1653634861,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
--'  1  0  ~/.config/polybar/sound.sh
-|4,39,1,0,1653634857,"~/.config/polybar/sound.sh"
 
 # History of marks within files (newest to oldest):
 
+> ~/.bin/boot-win
+	*	1657554653	0
+	"	2	49
+	^	2	50
+	.	3	0
+	+	1	11
+	+	2	50
+	+	1	5
+	+	3	0
+
 > ~/.bashrc
-	*	1657532421	0
-	"	25	70
-	^	25	71
-	.	25	0
-	+	12	0
-	+	14	0
-	+	16	28
-	+	13	13
-	+	19	0
-	+	16	0
-	+	21	17
+	*	1657549038	0
+	"	15	1
+	.	17	0
+	+	11	0
 	+	13	0
-	+	23	0
-	+	25	0
+	+	15	28
+	+	12	13
+	+	17	0
+	+	15	0
+	+	17	17
+	+	12	0
+	+	19	0
+	+	21	0
+	+	8	0
+	+	21	0
+	+	22	0
+	+	17	0
+
+> ~/.config/i3/config
+	*	1657538851	0
+	"	198	39
+	^	198	40
+	.	198	0
+	+	184	0
+	+	48	33
+	+	184	0
+	+	185	39
+	+	188	12
+	+	195	4
+	+	194	28
+	+	195	43
+	+	194	0
+	+	195	0
+	+	16	14
+	+	195	0
+	+	194	0
+	+	191	19
+	+	194	28
+	+	191	21
+	+	192	36
+	+	198	0
 
 > ~/reboot-win
 	*	1653636251	0
@@ -396,29 +435,6 @@ $
 	^	24	1
 	.	24	0
 	+	24	0
-
-> ~/.config/i3/config
-	*	1653633356	0
-	"	192	36
-	^	192	37
-	.	192	36
-	+	184	0
-	+	48	33
-	+	184	0
-	+	185	39
-	+	188	12
-	+	195	4
-	+	194	28
-	+	195	43
-	+	194	0
-	+	195	0
-	+	16	14
-	+	195	0
-	+	194	0
-	+	191	19
-	+	194	28
-	+	191	21
-	+	192	36
 
 > ~/.vimrc
 	*	1653633163	0
