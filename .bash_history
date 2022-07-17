@@ -297,3 +297,130 @@ reboot
 vim .bashrc
 #1653460199
 sudo reboot
+dotix add .config/paru
+dotix status
+dotix commit -m "paru"
+dotix push origin main
+ls
+ls Downloads/
+rm -rf Downloads
+sl
+ls
+history
+ls -la
+ls
+ls
+ls Downloads/
+rm -rf Desktop Downloads
+ls
+# dif gutachten
+cp ForImage5.img image.qcow2
+ls
+paru libguestfs-tools
+paru libguestfs
+mkdir mnt
+guestmount -a image.qcow2 -i --ro /home/xe/mnt
+ls -lah ~/mnt/
+fdisk -l image.qcow2 
+cd mnt/
+ls
+ls -lah
+ls -lah home/
+ls -lah home/olaf/
+cd ..
+sudo arch-chroot ~/mnt/
+paru arch-chroot
+sudo chroot ~/mnt/
+sudo guestmount -a image.qcow2 -i --ro /mnt
+sudo guestmount --nonempty -a image.qcow2 -i --ro /mnt
+guestmount
+guestmount --help
+ls
+cd mnt/
+cd home/
+ls
+sudo cat olaf/.bash_history 
+cd pc/
+ls
+ls -al
+cat .bash_history 
+nautilus .
+nautilus . &
+cat .bashrc 
+cd mnt/home/pc/
+ls 
+ls -lah
+cat .sudo_as_admin_successful 
+cat .ssh/known_hosts
+sudo su
+ls
+cd ..
+ls
+cd olaf/
+ls
+sudo cd olaf
+sudo cd -s olaf
+ls olaf/ -lhs
+paru tree
+tree
+cd ..
+ls
+cat /etc/passwd
+cat /etc/passwd | grep 1001
+cat /etc/passwd | grep 1002
+cat /etc/passwd | grep 1000
+cat /etc/shadow
+sudo cat /etc/shadow
+sudo cat /etc/shadow
+ls
+tree
+ls /mnt/
+/mnt/windows/
+sudo mkdir /mnt/dif
+sudo guestmount -a image.qcow2 -i --ro /mnt/dif
+guestmount -a image.qcow2 -i --ro /mnt/dif
+sudo su
+ls
+ls -la mnt/
+sudo nautilus . &
+tree mnt/
+nautilus . &
+sudo su
+ls
+qemu-img convert -p -O raw image.qcow2 image.raw
+ls
+fdisk -l image.raw 
+paru dc3dd
+ls
+fdisk -l image.raw 
+dc3dd if=image.raw of=linux.img skip=1054720 count=$[46135295-1054720-1]
+dd if=image.raw of=linux.img skip=1054720 count=$[46135295-1054720-1]
+dd if=image.raw of=linux.img skip=1054720 count=$[46135295-1054720+1]
+dd if=image.raw of=usb.ntfs skip=47851520 count=$[67383295-47851520+1]
+ls
+mv linux.img linux.ext
+ls
+mv linux.ext linux.ext4
+ls
+ls -lh
+mount linux.ext4 /mnt/dif/
+sudo su
+sudo su
+ls
+history
+cat .bash_history 
+cat .bash_history 
+ls
+cd /mnt/dif/
+ls
+cd
+ls
+fdisk -l image.raw 
+parted --help
+parted print image.raw 
+parted print all image.raw 
+parted image.raw 
+parted image.raw print
+vim .config/i3/config 
+vim .config/i3/config 
+vim .config/i3/config 
