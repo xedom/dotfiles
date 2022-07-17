@@ -424,3 +424,10 @@ parted image.raw print
 vim .config/i3/config 
 vim .config/i3/config 
 vim .config/i3/config 
+dotix status
+dotix commit -m "polybar icons"
+dotix commit -a -m "polybar icons"
+dotix push origin main
+dotix add .config/polybar
+dotix commit -a -m "polybar icons"
+dotix push origin main

@@ -18,11 +18,11 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1658032022,,"wq"
+|2,0,1658098671,,"wq"
 :w
-|2,0,1658031993,,"w"
+|2,0,1658085151,,"w"
 :q
-|2,0,1658031666,,"q"
+|2,0,1658085032,,"q"
 :a
 |2,0,1658031527,,"a"
 :W
@@ -69,272 +69,312 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
-	6
-|3,1,0,0,1,0,1658031976,"6"
+""0	LINE	0
+	label =  %date%
+|3,1,0,1,1,0,1658088163,"label =  %date%"
 "1	LINE	0
 	
-|3,0,1,1,1,0,1658027678,""
+|3,0,1,1,1,0,1658073215,""
 "2	LINE	0
-	click-right = $HOME/.config/polybar/scripts/xdisp.sh night
-|3,0,2,1,1,0,1658027677,"click-right = $HOME/.config/polybar/scripts/xdisp.sh night"
+		redshift -x
+|3,0,2,1,1,0,1658073213,"	redshift -x"
 "3	LINE	0
-	click-left = $HOME/.config/polybar/scripts/xdisp.sh day
-|3,0,3,1,1,0,1658027677,"click-left = $HOME/.config/polybar/scripts/xdisp.sh day"
+		echo "day" > $HOME/.config/polybar/scripts/.xdisp_currMode_mode
+|3,0,3,1,1,0,1658073213,"	echo \"day\" > $HOME/.config/polybar/scripts/.xdisp_currMode_mode"
 "4	LINE	0
-	exec = $HOME/.config/polybar/scripts/xdisp.sh mode
-|3,0,4,1,1,0,1658027673,"exec = $HOME/.config/polybar/scripts/xdisp.sh mode"
+	elif [ "${arg}" == "day" ]; then
+|3,0,4,1,1,0,1658073213,"elif [ \"${arg}\" == \"day\" ]; then"
 "5	LINE	0
 	
-|3,0,5,1,1,0,1658026721,""
+|3,0,5,1,1,0,1658073213,""
 "6	LINE	0
-	include-file = $HOME/.config/polybar/modules/date.ini
-|3,0,6,1,1,0,1658026433,"include-file = $HOME/.config/polybar/modules/date.ini"
+		redshift -O 4000
+|3,0,6,1,1,0,1658073213,"	redshift -O 4000"
 "7	LINE	0
-	margin-top = 0
-|3,0,7,1,1,0,1658026428,"margin-top = 0"
+		echo "night" > $HOME/.config/polybar/scripts/.xdisp_currMode_mode
+|3,0,7,1,1,0,1658073213,"	echo \"night\" > $HOME/.config/polybar/scripts/.xdisp_currMode_mode"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1658026428,""
+	if [ "${arg}" == "night" ]; then
+|3,0,8,1,1,0,1658073212,"if [ \"${arg}\" == \"night\" ]; then"
 "9	LINE	0
-	margin-bottom = 0
-|3,0,9,1,1,0,1658026427,"margin-bottom = 0"
+	
+|3,0,9,1,1,0,1658027678,""
 "u	CHAR	0
 	uuuuu;w
 |3,0,30,0,1,0,1658025131,"uuuuu;w"
 "-	CHAR	0
-	6
-|3,0,36,0,1,0,1658031889,"6"
+	2
+|3,0,36,0,1,0,1658085409,"2"
 
 # File marks:
-'0  30  49  ~/.config/polybar/config.ini
-|4,48,30,49,1658032022,"~/.config/polybar/config.ini"
-'1  30  49  ~/.config/polybar/config.ini
-|4,49,30,49,1658031968,"~/.config/polybar/config.ini"
-'2  1  0  ~/.config/polybar/colors.ini
-|4,50,1,0,1658031666,"~/.config/polybar/colors.ini"
-'3  6  29  ~/.config/polybar/modules/wlan.ini
-|4,51,6,29,1658031627,"~/.config/polybar/modules/wlan.ini"
-'4  5  29  ~/.config/polybar/modules/eth.ini
-|4,52,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
-'5  1  0  ~/.config/polybar/config.ini
-|4,53,1,0,1658031541,"~/.config/polybar/config.ini"
-'6  1  0  ~/.config/polybar/config.ini
-|4,54,1,0,1658031541,"~/.config/polybar/config.ini"
-'7  1  0  ~/.config/polybar/config.ini
-|4,55,1,0,1658031541,"~/.config/polybar/config.ini"
-'8  1  0  ~/.config/polybar/config.ini
-|4,56,1,0,1658031541,"~/.config/polybar/config.ini"
-'9  1  0  ~/.config/polybar/modules/test.ini
-|4,57,1,0,1658031504,"~/.config/polybar/modules/test.ini"
+'0  18  0  ~/.bashrc
+|4,48,18,0,1658098671,"~/.bashrc"
+'1  39  1  ~/.config/scripts/xdisp.sh
+|4,49,39,1,1658093448,"~/.config/scripts/xdisp.sh"
+'2  9  7  ~/.config/polybar/modules/date.ini
+|4,50,9,7,1658088180,"~/.config/polybar/modules/date.ini"
+'3  64  44  ~/.config/polybar/config.ini
+|4,51,64,44,1658085586,"~/.config/polybar/config.ini"
+'4  6  0  ~/.config/polybar/modules/brightness.ini
+|4,52,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+'5  1  17  ~/.config/polybar/modules/brightness.sh
+|4,53,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+'6  6  0  ~/.config/polybar/modules/xdisp1.ini
+|4,54,6,0,1658085167,"~/.config/polybar/modules/xdisp1.ini"
+'7  3  21  ~/.config/polybar/modules/xdisp1.ini
+|4,55,3,21,1658085032,"~/.config/polybar/modules/xdisp1.ini"
+'8  3  21  ~/.config/polybar/modules/xdisp1.ini
+|4,56,3,21,1658085032,"~/.config/polybar/modules/xdisp1.ini"
+'9  55  51  ~/.config/polybar/config.ini
+|4,57,55,51,1658084987,"~/.config/polybar/config.ini"
 
 # Jumplist (newest first):
--'  30  49  ~/.config/polybar/config.ini
-|4,39,30,49,1658032022,"~/.config/polybar/config.ini"
--'  30  49  ~/.config/polybar/config.ini
-|4,39,30,49,1658031968,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/colors.ini
-|4,39,1,0,1658031666,"~/.config/polybar/colors.ini"
--'  1  0  ~/.config/polybar/colors.ini
-|4,39,1,0,1658031666,"~/.config/polybar/colors.ini"
--'  1  0  ~/.config/polybar/colors.ini
-|4,39,1,0,1658031666,"~/.config/polybar/colors.ini"
--'  1  0  ~/.config/polybar/colors.ini
-|4,39,1,0,1658031666,"~/.config/polybar/colors.ini"
--'  6  29  ~/.config/polybar/modules/wlan.ini
-|4,39,6,29,1658031627,"~/.config/polybar/modules/wlan.ini"
--'  6  29  ~/.config/polybar/modules/wlan.ini
-|4,39,6,29,1658031627,"~/.config/polybar/modules/wlan.ini"
--'  6  29  ~/.config/polybar/modules/wlan.ini
-|4,39,6,29,1658031627,"~/.config/polybar/modules/wlan.ini"
--'  6  29  ~/.config/polybar/modules/wlan.ini
-|4,39,6,29,1658031627,"~/.config/polybar/modules/wlan.ini"
--'  6  29  ~/.config/polybar/modules/wlan.ini
-|4,39,6,29,1658031627,"~/.config/polybar/modules/wlan.ini"
--'  6  29  ~/.config/polybar/modules/wlan.ini
-|4,39,6,29,1658031627,"~/.config/polybar/modules/wlan.ini"
--'  6  29  ~/.config/polybar/modules/wlan.ini
-|4,39,6,29,1658031627,"~/.config/polybar/modules/wlan.ini"
--'  6  29  ~/.config/polybar/modules/wlan.ini
-|4,39,6,29,1658031627,"~/.config/polybar/modules/wlan.ini"
--'  1  0  ~/.config/polybar/modules/wlan.ini
-|4,39,1,0,1658031589,"~/.config/polybar/modules/wlan.ini"
--'  1  0  ~/.config/polybar/modules/wlan.ini
-|4,39,1,0,1658031589,"~/.config/polybar/modules/wlan.ini"
--'  1  0  ~/.config/polybar/modules/wlan.ini
-|4,39,1,0,1658031589,"~/.config/polybar/modules/wlan.ini"
--'  1  0  ~/.config/polybar/modules/wlan.ini
-|4,39,1,0,1658031589,"~/.config/polybar/modules/wlan.ini"
--'  1  0  ~/.config/polybar/modules/wlan.ini
-|4,39,1,0,1658031589,"~/.config/polybar/modules/wlan.ini"
--'  1  0  ~/.config/polybar/modules/wlan.ini
-|4,39,1,0,1658031589,"~/.config/polybar/modules/wlan.ini"
--'  1  0  ~/.config/polybar/modules/wlan.ini
-|4,39,1,0,1658031589,"~/.config/polybar/modules/wlan.ini"
--'  1  0  ~/.config/polybar/modules/wlan.ini
-|4,39,1,0,1658031589,"~/.config/polybar/modules/wlan.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  5  29  ~/.config/polybar/modules/eth.ini
-|4,39,5,29,1658031582,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
--'  1  0  ~/.config/polybar/modules/eth.ini
-|4,39,1,0,1658031551,"~/.config/polybar/modules/eth.ini"
+-'  18  0  ~/.bashrc
+|4,39,18,0,1658098671,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1658098664,"~/.bashrc"
+-'  39  1  ~/.config/scripts/xdisp.sh
+|4,39,39,1,1658093448,"~/.config/scripts/xdisp.sh"
+-'  39  1  ~/.config/scripts/xdisp.sh
+|4,39,39,1,1658093448,"~/.config/scripts/xdisp.sh"
+-'  1  0  ~/.config/scripts/xdisp.sh
+|4,39,1,0,1658093444,"~/.config/scripts/xdisp.sh"
+-'  1  0  ~/.config/scripts/xdisp.sh
+|4,39,1,0,1658093444,"~/.config/scripts/xdisp.sh"
+-'  9  7  ~/.config/polybar/modules/date.ini
+|4,39,9,7,1658088180,"~/.config/polybar/modules/date.ini"
+-'  9  7  ~/.config/polybar/modules/date.ini
+|4,39,9,7,1658088180,"~/.config/polybar/modules/date.ini"
+-'  9  7  ~/.config/polybar/modules/date.ini
+|4,39,9,7,1658088180,"~/.config/polybar/modules/date.ini"
+-'  9  7  ~/.config/polybar/modules/date.ini
+|4,39,9,7,1658088180,"~/.config/polybar/modules/date.ini"
+-'  8  1  ~/.config/polybar/modules/date.ini
+|4,39,8,1,1658088161,"~/.config/polybar/modules/date.ini"
+-'  8  1  ~/.config/polybar/modules/date.ini
+|4,39,8,1,1658088161,"~/.config/polybar/modules/date.ini"
+-'  8  1  ~/.config/polybar/modules/date.ini
+|4,39,8,1,1658088161,"~/.config/polybar/modules/date.ini"
+-'  8  1  ~/.config/polybar/modules/date.ini
+|4,39,8,1,1658088161,"~/.config/polybar/modules/date.ini"
+-'  1  0  ~/.config/polybar/modules/date.ini
+|4,39,1,0,1658088151,"~/.config/polybar/modules/date.ini"
+-'  1  0  ~/.config/polybar/modules/date.ini
+|4,39,1,0,1658088151,"~/.config/polybar/modules/date.ini"
+-'  1  0  ~/.config/polybar/modules/date.ini
+|4,39,1,0,1658088151,"~/.config/polybar/modules/date.ini"
+-'  1  0  ~/.config/polybar/modules/date.ini
+|4,39,1,0,1658088151,"~/.config/polybar/modules/date.ini"
+-'  64  44  ~/.config/polybar/config.ini
+|4,39,64,44,1658085586,"~/.config/polybar/config.ini"
+-'  64  44  ~/.config/polybar/config.ini
+|4,39,64,44,1658085586,"~/.config/polybar/config.ini"
+-'  64  44  ~/.config/polybar/config.ini
+|4,39,64,44,1658085586,"~/.config/polybar/config.ini"
+-'  64  44  ~/.config/polybar/config.ini
+|4,39,64,44,1658085586,"~/.config/polybar/config.ini"
+-'  64  44  ~/.config/polybar/config.ini
+|4,39,64,44,1658085586,"~/.config/polybar/config.ini"
+-'  64  44  ~/.config/polybar/config.ini
+|4,39,64,44,1658085586,"~/.config/polybar/config.ini"
+-'  64  44  ~/.config/polybar/config.ini
+|4,39,64,44,1658085586,"~/.config/polybar/config.ini"
+-'  64  44  ~/.config/polybar/config.ini
+|4,39,64,44,1658085586,"~/.config/polybar/config.ini"
 -'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1658031541,"~/.config/polybar/config.ini"
+|4,39,1,0,1658085397,"~/.config/polybar/config.ini"
 -'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1658031541,"~/.config/polybar/config.ini"
+|4,39,1,0,1658085397,"~/.config/polybar/config.ini"
 -'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1658031541,"~/.config/polybar/config.ini"
+|4,39,1,0,1658085397,"~/.config/polybar/config.ini"
 -'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1658031541,"~/.config/polybar/config.ini"
+|4,39,1,0,1658085397,"~/.config/polybar/config.ini"
 -'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1658031541,"~/.config/polybar/config.ini"
+|4,39,1,0,1658085397,"~/.config/polybar/config.ini"
 -'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1658031541,"~/.config/polybar/config.ini"
+|4,39,1,0,1658085397,"~/.config/polybar/config.ini"
 -'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1658031541,"~/.config/polybar/config.ini"
+|4,39,1,0,1658085397,"~/.config/polybar/config.ini"
 -'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1658031541,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1658031541,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/config.ini
-|4,39,1,0,1658031541,"~/.config/polybar/config.ini"
--'  2  0  ~/.config/polybar/config.ini
-|4,39,2,0,1658031539,"~/.config/polybar/config.ini"
--'  2  0  ~/.config/polybar/config.ini
-|4,39,2,0,1658031539,"~/.config/polybar/config.ini"
--'  2  0  ~/.config/polybar/config.ini
-|4,39,2,0,1658031539,"~/.config/polybar/config.ini"
--'  2  0  ~/.config/polybar/config.ini
-|4,39,2,0,1658031539,"~/.config/polybar/config.ini"
--'  2  0  ~/.config/polybar/config.ini
-|4,39,2,0,1658031539,"~/.config/polybar/config.ini"
--'  2  0  ~/.config/polybar/config.ini
-|4,39,2,0,1658031539,"~/.config/polybar/config.ini"
--'  2  0  ~/.config/polybar/config.ini
-|4,39,2,0,1658031539,"~/.config/polybar/config.ini"
--'  2  0  ~/.config/polybar/config.ini
-|4,39,2,0,1658031539,"~/.config/polybar/config.ini"
--'  2  0  ~/.config/polybar/config.ini
-|4,39,2,0,1658031539,"~/.config/polybar/config.ini"
--'  2  0  ~/.config/polybar/config.ini
-|4,39,2,0,1658031539,"~/.config/polybar/config.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
--'  1  0  ~/.config/polybar/modules/test.ini
-|4,39,1,0,1658031504,"~/.config/polybar/modules/test.ini"
+|4,39,1,0,1658085397,"~/.config/polybar/config.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  6  0  ~/.config/polybar/modules/brightness.ini
+|4,39,6,0,1658085368,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  3  28  ~/.config/polybar/modules/brightness.ini
+|4,39,3,28,1658085292,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  0  ~/.config/polybar/modules/brightness.ini
+|4,39,1,0,1658085279,"~/.config/polybar/modules/brightness.ini"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
+-'  1  17  ~/.config/polybar/modules/brightness.sh
+|4,39,1,17,1658085261,"~/.config/polybar/modules/brightness.sh"
 
 # History of marks within files (newest to oldest):
 
+> ~/.bashrc
+	*	1658098669	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	11	0
+	+	13	0
+	+	15	28
+	+	12	13
+	+	17	0
+	+	15	0
+	+	17	17
+	+	12	0
+	+	19	0
+	+	21	0
+	+	8	0
+	+	21	0
+	+	22	0
+	+	17	0
+	+	18	0
+
+> ~/.config/scripts/xdisp.sh
+	*	1658093447	0
+	"	39	1
+	^	39	2
+	.	39	0
+	+	39	0
+
+> ~/.config/polybar/modules/date.ini
+	*	1658088175	0
+	"	9	7
+	^	9	8
+	.	9	8
+	+	8	0
+	+	9	0
+	+	8	0
+	+	9	8
+
 > ~/.config/polybar/config.ini
-	*	1658032021	0
-	"	30	49
-	^	30	50
-	.	30	49
+	*	1658085584	0
+	"	64	44
+	^	64	45
+	.	33	44
 	+	48	0
 	+	48	18
 	+	48	14
@@ -415,7 +455,60 @@ $
 	+	30	49
 	+	29	51
 	+	30	49
+	+	55	51
+	+	64	45
+	+	65	45
+	+	64	54
+	+	65	54
+	+	33	44
 	i	27	37
+
+> ~/.config/polybar/modules/brightness.ini
+	*	1658085366	0
+	"	6	0
+	^	6	0
+	.	8	53
+	+	3	42
+	+	7	27
+	+	8	28
+	+	7	44
+	+	8	45
+	+	7	52
+	+	8	53
+
+> ~/.config/polybar/modules/brightness.sh
+	*	1658085259	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> ~/.config/polybar/modules/xdisp1.ini
+	*	1658085151	0
+	"	6	0
+	^	6	0
+	.	1	17
+	+	13	8
+	+	10	17
+	+	3	29
+	+	3	0
+	+	7	52
+	+	8	53
+	+	1	17
+
+> ~/.config/polybar/modules/batt.ini
+	*	1658084933	0
+	"	4	0
+	^	4	0
+	.	3	36
+	+	1	14
+	+	3	36
+
+> ~/.config/polybar/scripts/brightness.sh
+	*	1658073224	0
+	"	25	0
+	.	17	0
+	+	17	0
 
 > ~/.config/polybar/colors.ini
 	*	1658031664	0
@@ -486,21 +579,6 @@ $
 	+	4	0
 	+	5	24
 
-> ~/.config/polybar/modules/xdisp1.ini
-	*	1658031191	0
-	"	10	20
-	^	10	21
-	.	10	17
-	+	13	8
-	+	10	17
-
-> ~/.config/polybar/modules/date.ini
-	*	1658031102	0
-	"	8	11
-	^	8	12
-	.	8	11
-	+	8	11
-
 > ~/.config/polybar/modules/memory.ini
 	*	1658031059	0
 	"	5	20
@@ -528,10 +606,6 @@ $
 	"	34	0
 	.	14	0
 	+	14	0
-
-> ~/.config/polybar/modules/batt.ini
-	*	1658026990	0
-	"	1	0
 
 > ~/.config/polybar/scripts/xdisp.sh
 	*	1658026680	0
@@ -896,25 +970,6 @@ $
 	+	2	50
 	+	1	5
 	+	3	0
-
-> ~/.bashrc
-	*	1657549038	0
-	"	15	1
-	.	17	0
-	+	11	0
-	+	13	0
-	+	15	28
-	+	12	13
-	+	17	0
-	+	15	0
-	+	17	17
-	+	12	0
-	+	19	0
-	+	21	0
-	+	8	0
-	+	21	0
-	+	22	0
-	+	17	0
 
 > ~/reboot-win
 	*	1653636251	0

@@ -15,7 +15,7 @@ export HISTSIZE=
 #export HISTTIMEFORMAT="[%F %T]"
 
 ## screen settings
-redshift -O 4000
+#redshift -O 4000
 
 ## aliases
 alias ls='ls --color=auto'

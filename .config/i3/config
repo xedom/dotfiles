@@ -185,7 +185,7 @@ gaps outer 0
 #exec_always picom -f
 exec_always picom --backend xrender &
 
-exec_always --no-startup-id $HOME/.config/polybar/laucher.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec $HOME/.config/scripts/get-wallpaper.sh
 
 ## added scratchpad
