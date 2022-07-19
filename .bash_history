@@ -431,3 +431,14 @@ dotix push origin main
 dotix add .config/polybar
 dotix commit -a -m "polybar icons"
 dotix push origin main
+vim .bashrc 
+ls
+dotix add .config/scripts
+dotix add .config/polybar
+dotix status
+dotix commit -m "polybar: fixed icons and scripts"
+dotix push origin main
+dotix 
+dotix commit -a -m "polybar: fixed icons and scripts"
+dotix push origin main
+dotix status
