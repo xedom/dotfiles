@@ -442,3 +442,66 @@ dotix
 dotix commit -a -m "polybar: fixed icons and scripts"
 dotix push origin main
 dotix status
+cd
+dotix status
+dotix commmit -a -m "new icons & i3config updated"
+dotix commit -a -m "new icons & i3config updated"
+dotix push origin main
+dotix push -o
+dotix push -h
+dotix push -o -h
+ls
+dotix status
+mount --help
+fdisk -l
+fdisk
+fdisk list
+fdisk --help
+fdisk
+fdisk -l
+sudo fdisk -l
+mount -r /dev/nvme0n1p3 /mnt/windows/
+sudo mount -r /dev/nvme0n1p3 /mnt/windows
+cd /mnt/windows/
+ls
+cd Users/kajos/Desktop/
+ls
+cat bho.lnk 
+reset
+ls
+ls -lah
+cd es/
+ls
+cd ..
+cd lin1/
+ls
+cd
+umount /mnt/windows 
+sudo umount /mnt/windows 
+ls /mnt/ -lr
+ls /mnt/ -lra
+ls /mnt/ -la
+ls /mnt/dif/ -la
+ls /mnt/windows/ -la
+rm -rf /mnt/windows/
+sudo rm -rf /mnt/windows
+sudo rm -rf /mnt/dif/
+cd Downloads/
+ls
+unzip Photos-001.zip 
+paru unzip Photos-001.zip 
+paru unzip
+unzip Photos-001.zip 
+ls
+rm Photos-001.zip
+mv IMG_20220706_1120* ~/dev/testex/
+ls
+cd ~/dev/testex/
+ls
+mkdir Images
+mv IMG_20220706_1120* Images/
+ls
+ls
+mv Images images
+cd
+mmls image.raw 
