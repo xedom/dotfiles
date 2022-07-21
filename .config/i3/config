@@ -197,9 +197,9 @@ bindsym XF86MonBrightnessDown exec --no-startup-id ~/.config/scripts/brightness.
 #bindsym $mod+Print exec gnome-screenshot -a
 
 
-set $cprim #8a6000
-set $cprim_dark #523900
-set $csec #222222
+set $cprim #393E46
+set $cprim_dark #393E46
+set $csec #222831
 
 # class                   border          backgr.         text      indicator       child_border
 client.focused            $cprim          $cprim          $csec     $cprim          $cprim

@@ -17,14 +17,14 @@
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1658277149,,"q"
-:w
-|2,0,1658277145,,"w"
 :wq
-|2,0,1658277060,,"wq"
+|2,0,1658371043,,"wq"
+:w
+|2,0,1658371041,,"w"
 :W
-|2,0,1658275700,,"W"
+|2,0,1658367645,,"W"
+:q
+|2,0,1658370553,,"q"
 :Q
 |2,0,1658267196,,"Q"
 :a
@@ -41,10 +41,10 @@ $
 |2,0,1653630011,,"/eth"
 
 # Search String History (newest to oldest):
+? \<label\>
+|2,1,1658369229,,"\\<label\\>"
 ? @$
 |2,1,1658031974,,"@$"
-? \<label\>
-|2,1,1658028023,,"\\<label\\>"
 ? \<bindsym\>
 |2,1,1657641560,,"\\<bindsym\\>"
 ? \<font\>
@@ -69,281 +69,324 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
-	$cprim_dark
-|3,1,0,0,1,0,1658276912,"$cprim_dark"
+"0	LINE	0
+	label-connected = %{F#F0C674}%{F-} %essid%
+|3,0,0,1,1,0,1658370502,"label-connected = %{F#F0C674}%{F-} %essid%"
 "1	LINE	0
-	client.unfocused        #333333 $csec       $cprim  #292d2e   $csec
-|3,0,1,1,1,0,1658276566,"client.unfocused        #333333 $csec       $cprim  #292d2e   $csec"
+	format-connected-prefix = %ifname% 
+|3,0,1,1,1,0,1658370359,"format-connected-prefix = %ifname% "
 "2	LINE	0
-	set $col_second_dark 
-|3,0,2,1,1,0,1658275905,"set $col_second_dark "
+	#label-connected = %{F#F0C674}%ifname%%{F-} %local_ip%
+|3,0,2,1,1,0,1658370221,"#label-connected = %{F#F0C674}%ifname%%{F-} %local_ip%"
 "3	LINE	0
-	set $col_prim
-|3,0,3,1,1,0,1658275872,"set $col_prim"
+	label-connected = "Some text %{F${colors.foreground-alt}}Colored%{F-}"
+|3,0,3,1,1,0,1658369772,"label-connected = \"Some text %{F${colors.foreground-alt}}Colored%{F-}\""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1658275817,""
+	#label-connected = %{F#f00}%percentage%%{F-}%
+|3,0,4,1,1,0,1658369770,"#label-connected = %{F#f00}%percentage%%{F-}%"
 "5	LINE	0
-	client.focused #FF0000 #ffaa00 #eeeeee #2e9ef4 #ffaa00
-|3,0,5,1,1,0,1658275487,"client.focused #FF0000 #ffaa00 #eeeeee #2e9ef4 #ffaa00"
+	#alert = #A54242
+|3,0,5,1,1,0,1658367859,"#alert = #A54242"
 "6	LINE	0
-	ient.focused          #4c7899 #285577 #ffffff #2e9ef4   #285577
-|3,0,6,1,1,0,1658275467,"ient.focused          #4c7899 #285577 #ffffff #2e9ef4   #285577"
+	#secondary = #8ABEB7
+|3,0,6,1,1,0,1658367859,"#secondary = #8ABEB7"
 "7	LINE	0
-	# client.focused #555555 #555555 #ffffff #2e9ef4 #CC0000
-|3,0,7,1,1,0,1658275007,"# client.focused #555555 #555555 #ffffff #2e9ef4 #CC0000"
+	#primary = #F0C674
+|3,0,7,1,1,0,1658367858,"#primary = #F0C674"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1658252429,""
+	#foreground = #C5C8C6
+|3,0,8,1,1,0,1658367858,"#foreground = #C5C8C6"
 "9	LINE	0
-	#modules-right = nightlight brightness battery filesystem pulseaudio memory cpu wlan eth date
-|3,0,9,1,1,0,1658252385,"#modules-right = nightlight brightness battery filesystem pulseaudio memory cpu wlan eth date"
+	#background-alt = #373B41
+|3,0,9,1,1,0,1658367857,"#background-alt = #373B41"
 "u	CHAR	0
 	uuuuu;w
 |3,0,30,0,1,0,1658025131,"uuuuu;w"
-"-	CHAR	0
-	0
-|3,0,36,0,1,0,1658276675,"0"
+""-	CHAR	0
+	393E46
+|3,1,36,0,1,0,1658371013,"393E46"
 
 # File marks:
-'0  200  17  ~/.config/i3/config
-|4,48,200,17,1658277149,"~/.config/i3/config"
-'1  165  0  ~/.config/i3/config
-|4,49,165,0,1658277060,"~/.config/i3/config"
-'2  165  0  ~/.config/i3/config
-|4,50,165,0,1658277060,"~/.config/i3/config"
-'3  210  0  ~/.config/i3/config
-|4,51,210,0,1658276994,"~/.config/i3/config"
-'4  210  0  ~/.config/i3/config
-|4,52,210,0,1658276994,"~/.config/i3/config"
-'5  210  0  ~/.config/i3/config
-|4,53,210,0,1658276994,"~/.config/i3/config"
-'6  210  0  ~/.config/i3/config
-|4,54,210,0,1658276994,"~/.config/i3/config"
-'7  209  73  ~/.config/i3/config
-|4,55,209,73,1658276855,"~/.config/i3/config"
-'8  209  73  ~/.config/i3/config
-|4,56,209,73,1658276855,"~/.config/i3/config"
-'9  209  73  ~/.config/i3/config
-|4,57,209,73,1658276855,"~/.config/i3/config"
+'0  4  19  ~/.config/polybar/colors.ini
+|4,48,4,19,1658371043,"~/.config/polybar/colors.ini"
+'1  201  22  ~/.config/i3/config
+|4,49,201,22,1658371034,"~/.config/i3/config"
+'2  4  0  ~/.config/polybar/modules/eth.ini
+|4,50,4,0,1658370553,"~/.config/polybar/modules/eth.ini"
+'3  9  0  ~/.config/polybar/modules/network-base.ini
+|4,51,9,0,1658370550,"~/.config/polybar/modules/network-base.ini"
+'4  7  17  ~/.config/polybar/modules/wlan.ini
+|4,52,7,17,1658370535,"~/.config/polybar/modules/wlan.ini"
+'5  1  0  ~/.config/polybar/modules/pulseaudio.ini
+|4,53,1,0,1658370456,"~/.config/polybar/modules/pulseaudio.ini"
+'6  5  31  ~/.config/polybar/modules/eth.ini
+|4,54,5,31,1658370416,"~/.config/polybar/modules/eth.ini"
+'7  5  31  ~/.config/polybar/modules/eth.ini
+|4,55,5,31,1658370416,"~/.config/polybar/modules/eth.ini"
+'8  16  31  ~/.config/polybar/modules/test.ini
+|4,56,16,31,1658369886,"~/.config/polybar/modules/test.ini"
+'9  7  22  ~/.config/polybar/modules/eth.ini
+|4,57,7,22,1658369241,"~/.config/polybar/modules/eth.ini"
 
 # Jumplist (newest first):
--'  200  17  ~/.config/i3/config
-|4,39,200,17,1658277149,"~/.config/i3/config"
+-'  4  19  ~/.config/polybar/colors.ini
+|4,39,4,19,1658371043,"~/.config/polybar/colors.ini"
+-'  201  22  ~/.config/i3/config
+|4,39,201,22,1658371034,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1658277083,"~/.config/i3/config"
--'  165  0  ~/.config/i3/config
-|4,39,165,0,1658277060,"~/.config/i3/config"
--'  165  0  ~/.config/i3/config
-|4,39,165,0,1658277060,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1658277023,"~/.config/i3/config"
--'  210  0  ~/.config/i3/config
-|4,39,210,0,1658276994,"~/.config/i3/config"
--'  210  0  ~/.config/i3/config
-|4,39,210,0,1658276994,"~/.config/i3/config"
--'  210  0  ~/.config/i3/config
-|4,39,210,0,1658276994,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1658276866,"~/.config/i3/config"
--'  209  73  ~/.config/i3/config
-|4,39,209,73,1658276855,"~/.config/i3/config"
--'  209  73  ~/.config/i3/config
-|4,39,209,73,1658276855,"~/.config/i3/config"
--'  209  73  ~/.config/i3/config
-|4,39,209,73,1658276855,"~/.config/i3/config"
--'  209  73  ~/.config/i3/config
-|4,39,209,73,1658276855,"~/.config/i3/config"
--'  207  43  ~/.config/i3/config
-|4,39,207,43,1658275952,"~/.config/i3/config"
--'  207  43  ~/.config/i3/config
-|4,39,207,43,1658275952,"~/.config/i3/config"
--'  207  43  ~/.config/i3/config
-|4,39,207,43,1658275952,"~/.config/i3/config"
--'  207  43  ~/.config/i3/config
-|4,39,207,43,1658275952,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1658275768,"~/.config/i3/config"
--'  205  64  ~/.config/i3/config
-|4,39,205,64,1658275763,"~/.config/i3/config"
--'  205  64  ~/.config/i3/config
-|4,39,205,64,1658275763,"~/.config/i3/config"
--'  205  64  ~/.config/i3/config
-|4,39,205,64,1658275763,"~/.config/i3/config"
--'  205  64  ~/.config/i3/config
-|4,39,205,64,1658275763,"~/.config/i3/config"
--'  198  0  ~/.config/i3/config
-|4,39,198,0,1658275374,"~/.config/i3/config"
--'  198  0  ~/.config/i3/config
-|4,39,198,0,1658275374,"~/.config/i3/config"
--'  198  0  ~/.config/i3/config
-|4,39,198,0,1658275374,"~/.config/i3/config"
--'  198  0  ~/.config/i3/config
-|4,39,198,0,1658275374,"~/.config/i3/config"
--'  198  0  ~/.config/i3/config
-|4,39,198,0,1658275374,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1658274912,"~/.config/i3/config"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  8  5  ~/dev/testex/.gitignore
-|4,39,8,5,1658267281,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  9  4  ~/dev/testex/.gitignore
-|4,39,9,4,1658267271,"~/dev/testex/.gitignore"
--'  1  0  ~/dev/testex/.gitignore
-|4,39,1,0,1658267238,"~/dev/testex/.gitignore"
--'  1  0  ~/dev/testex/.gitignore
-|4,39,1,0,1658267238,"~/dev/testex/.gitignore"
--'  1  0  ~/dev/testex/.gitignore
-|4,39,1,0,1658267238,"~/dev/testex/.gitignore"
--'  1  0  ~/dev/testex/.gitignore
-|4,39,1,0,1658267238,"~/dev/testex/.gitignore"
--'  1  0  ~/dev/testex/.gitignore
-|4,39,1,0,1658267238,"~/dev/testex/.gitignore"
--'  1  0  ~/dev/testex/.gitignore
-|4,39,1,0,1658267238,"~/dev/testex/.gitignore"
--'  1  0  ~/dev/testex/.gitignore
-|4,39,1,0,1658267238,"~/dev/testex/.gitignore"
--'  1  0  ~/dev/testex/.gitignore
-|4,39,1,0,1658267238,"~/dev/testex/.gitignore"
+|4,39,1,0,1658370846,"~/.config/i3/config"
+-'  3  17  ~/.config/polybar/colors.ini
+|4,39,3,17,1658370681,"~/.config/polybar/colors.ini"
+-'  2  13  ~/.config/polybar/colors.ini
+|4,39,2,13,1658370681,"~/.config/polybar/colors.ini"
+-'  4  0  ~/.config/polybar/modules/eth.ini
+|4,39,4,0,1658370553,"~/.config/polybar/modules/eth.ini"
+-'  4  0  ~/.config/polybar/modules/eth.ini
+|4,39,4,0,1658370553,"~/.config/polybar/modules/eth.ini"
+-'  9  0  ~/.config/polybar/modules/network-base.ini
+|4,39,9,0,1658370550,"~/.config/polybar/modules/network-base.ini"
+-'  9  0  ~/.config/polybar/modules/network-base.ini
+|4,39,9,0,1658370550,"~/.config/polybar/modules/network-base.ini"
+-'  7  17  ~/.config/polybar/modules/wlan.ini
+|4,39,7,17,1658370535,"~/.config/polybar/modules/wlan.ini"
+-'  7  17  ~/.config/polybar/modules/wlan.ini
+|4,39,7,17,1658370535,"~/.config/polybar/modules/wlan.ini"
+-'  1  0  ~/.config/polybar/modules/pulseaudio.ini
+|4,39,1,0,1658370456,"~/.config/polybar/modules/pulseaudio.ini"
+-'  1  0  ~/.config/polybar/modules/pulseaudio.ini
+|4,39,1,0,1658370456,"~/.config/polybar/modules/pulseaudio.ini"
+-'  1  0  ~/.config/polybar/modules/eth.ini
+|4,39,1,0,1658370441,"~/.config/polybar/modules/eth.ini"
+-'  1  0  ~/.config/polybar/modules/eth.ini
+|4,39,1,0,1658370441,"~/.config/polybar/modules/eth.ini"
+-'  1  0  ~/.config/polybar/modules/wlan.ini
+|4,39,1,0,1658370429,"~/.config/polybar/modules/wlan.ini"
+-'  1  0  ~/.config/polybar/modules/wlan.ini
+|4,39,1,0,1658370429,"~/.config/polybar/modules/wlan.ini"
+-'  5  31  ~/.config/polybar/modules/eth.ini
+|4,39,5,31,1658370416,"~/.config/polybar/modules/eth.ini"
+-'  5  31  ~/.config/polybar/modules/eth.ini
+|4,39,5,31,1658370416,"~/.config/polybar/modules/eth.ini"
+-'  5  31  ~/.config/polybar/modules/eth.ini
+|4,39,5,31,1658370416,"~/.config/polybar/modules/eth.ini"
+-'  5  31  ~/.config/polybar/modules/eth.ini
+|4,39,5,31,1658370416,"~/.config/polybar/modules/eth.ini"
+-'  5  31  ~/.config/polybar/modules/eth.ini
+|4,39,5,31,1658370416,"~/.config/polybar/modules/eth.ini"
+-'  5  31  ~/.config/polybar/modules/eth.ini
+|4,39,5,31,1658370416,"~/.config/polybar/modules/eth.ini"
+-'  6  18  ~/.config/polybar/modules/network-base.ini
+|4,39,6,18,1658370019,"~/.config/polybar/modules/network-base.ini"
+-'  3  11  ~/.config/polybar/modules/network-base.ini
+|4,39,3,11,1658370019,"~/.config/polybar/modules/network-base.ini"
+-'  6  18  ~/.config/polybar/modules/network-base.ini
+|4,39,6,18,1658370019,"~/.config/polybar/modules/network-base.ini"
+-'  3  11  ~/.config/polybar/modules/network-base.ini
+|4,39,3,11,1658370019,"~/.config/polybar/modules/network-base.ini"
+-'  16  31  ~/.config/polybar/modules/test.ini
+|4,39,16,31,1658369886,"~/.config/polybar/modules/test.ini"
+-'  16  31  ~/.config/polybar/modules/test.ini
+|4,39,16,31,1658369886,"~/.config/polybar/modules/test.ini"
+-'  16  31  ~/.config/polybar/modules/test.ini
+|4,39,16,31,1658369886,"~/.config/polybar/modules/test.ini"
+-'  16  31  ~/.config/polybar/modules/test.ini
+|4,39,16,31,1658369886,"~/.config/polybar/modules/test.ini"
+-'  16  31  ~/.config/polybar/modules/test.ini
+|4,39,16,31,1658369886,"~/.config/polybar/modules/test.ini"
+-'  16  31  ~/.config/polybar/modules/test.ini
+|4,39,16,31,1658369886,"~/.config/polybar/modules/test.ini"
+-'  16  31  ~/.config/polybar/modules/test.ini
+|4,39,16,31,1658369886,"~/.config/polybar/modules/test.ini"
+-'  16  31  ~/.config/polybar/modules/test.ini
+|4,39,16,31,1658369886,"~/.config/polybar/modules/test.ini"
+-'  7  0  ~/.config/polybar/modules/eth.ini
+|4,39,7,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  8  0  ~/.config/polybar/modules/eth.ini
+|4,39,8,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  7  0  ~/.config/polybar/modules/eth.ini
+|4,39,7,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  8  0  ~/.config/polybar/modules/eth.ini
+|4,39,8,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  7  0  ~/.config/polybar/modules/eth.ini
+|4,39,7,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  8  0  ~/.config/polybar/modules/eth.ini
+|4,39,8,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  7  0  ~/.config/polybar/modules/eth.ini
+|4,39,7,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  8  0  ~/.config/polybar/modules/eth.ini
+|4,39,8,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  7  0  ~/.config/polybar/modules/eth.ini
+|4,39,7,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  8  0  ~/.config/polybar/modules/eth.ini
+|4,39,8,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  7  0  ~/.config/polybar/modules/eth.ini
+|4,39,7,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  8  0  ~/.config/polybar/modules/eth.ini
+|4,39,8,0,1658369790,"~/.config/polybar/modules/eth.ini"
+-'  5  22  ~/.config/polybar/modules/eth.ini
+|4,39,5,22,1658369241,"~/.config/polybar/modules/eth.ini"
+-'  5  22  ~/.config/polybar/modules/eth.ini
+|4,39,5,22,1658369241,"~/.config/polybar/modules/eth.ini"
+-'  5  22  ~/.config/polybar/modules/eth.ini
+|4,39,5,22,1658369241,"~/.config/polybar/modules/eth.ini"
+-'  5  22  ~/.config/polybar/modules/eth.ini
+|4,39,5,22,1658369241,"~/.config/polybar/modules/eth.ini"
+-'  5  22  ~/.config/polybar/modules/eth.ini
+|4,39,5,22,1658369241,"~/.config/polybar/modules/eth.ini"
+-'  5  22  ~/.config/polybar/modules/eth.ini
+|4,39,5,22,1658369241,"~/.config/polybar/modules/eth.ini"
+-'  4  0  ~/.config/polybar/modules/eth.ini
+|4,39,4,0,1658369237,"~/.config/polybar/modules/eth.ini"
+-'  4  0  ~/.config/polybar/modules/eth.ini
+|4,39,4,0,1658369237,"~/.config/polybar/modules/eth.ini"
+-'  4  0  ~/.config/polybar/modules/eth.ini
+|4,39,4,0,1658369237,"~/.config/polybar/modules/eth.ini"
+-'  4  0  ~/.config/polybar/modules/eth.ini
+|4,39,4,0,1658369237,"~/.config/polybar/modules/eth.ini"
+-'  4  0  ~/.config/polybar/modules/eth.ini
+|4,39,4,0,1658369237,"~/.config/polybar/modules/eth.ini"
+-'  4  0  ~/.config/polybar/modules/eth.ini
+|4,39,4,0,1658369237,"~/.config/polybar/modules/eth.ini"
+-'  1  0  ~/.config/polybar/modules/test.ini
+|4,39,1,0,1658368947,"~/.config/polybar/modules/test.ini"
+-'  1  0  ~/.config/polybar/modules/test.ini
+|4,39,1,0,1658368947,"~/.config/polybar/modules/test.ini"
+-'  1  0  ~/.config/polybar/modules/test.ini
+|4,39,1,0,1658368947,"~/.config/polybar/modules/test.ini"
+-'  1  0  ~/.config/polybar/modules/test.ini
+|4,39,1,0,1658368947,"~/.config/polybar/modules/test.ini"
+-'  1  0  ~/.config/polybar/modules/test.ini
+|4,39,1,0,1658368947,"~/.config/polybar/modules/test.ini"
+-'  1  0  ~/.config/polybar/modules/test.ini
+|4,39,1,0,1658368947,"~/.config/polybar/modules/test.ini"
+-'  1  0  ~/.config/polybar/modules/test.ini
+|4,39,1,0,1658368947,"~/.config/polybar/modules/test.ini"
+-'  1  0  ~/.config/polybar/modules/test.ini
+|4,39,1,0,1658368947,"~/.config/polybar/modules/test.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  1  0  ~/.config/polybar/modules/nightlight.ini
+|4,39,1,0,1658368813,"~/.config/polybar/modules/nightlight.ini"
+-'  5  0  ~/.config/polybar/colors.ini
+|4,39,5,0,1658368742,"~/.config/polybar/colors.ini"
+-'  1  0  ~/.config/polybar/modules/eth.ini
+|4,39,1,0,1658368664,"~/.config/polybar/modules/eth.ini"
+-'  1  0  ~/.config/polybar/modules/eth.ini
+|4,39,1,0,1658368664,"~/.config/polybar/modules/eth.ini"
+-'  1  0  ~/.config/polybar/modules/eth.ini
+|4,39,1,0,1658368664,"~/.config/polybar/modules/eth.ini"
+-'  1  0  ~/.config/polybar/modules/eth.ini
+|4,39,1,0,1658368664,"~/.config/polybar/modules/eth.ini"
+-'  1  0  ~/.config/polybar/modules/eth.ini
+|4,39,1,0,1658368664,"~/.config/polybar/modules/eth.ini"
+-'  1  0  ~/.config/polybar/modules/eth.ini
+|4,39,1,0,1658368664,"~/.config/polybar/modules/eth.ini"
+-'  1  0  ~/.config/polybar/colors.ini
+|4,39,1,0,1658367357,"~/.config/polybar/colors.ini"
+-'  1  0  ~/.config/autostart
+|4,39,1,0,1658278731,"~/.config/autostart"
+-'  1  0  ~/.config/autostart
+|4,39,1,0,1658278731,"~/.config/autostart"
+-'  1  0  ~/.config/autostart
+|4,39,1,0,1658278731,"~/.config/autostart"
+-'  1  0  ~/.config/autostart
+|4,39,1,0,1658278731,"~/.config/autostart"
+-'  1  0  ~/.config/autostart
+|4,39,1,0,1658278731,"~/.config/autostart"
+-'  1  0  ~/.config/autostart
+|4,39,1,0,1658278731,"~/.config/autostart"
+-'  1  0  ~/.config/autostart
+|4,39,1,0,1658278731,"~/.config/autostart"
+-'  1  0  ~/.config/autostart
+|4,39,1,0,1658278731,"~/.config/autostart"
+-'  1  0  ~/.config/autostart
+|4,39,1,0,1658278731,"~/.config/autostart"
 
 # History of marks within files (newest to oldest):
 
+> ~/.config/polybar/colors.ini
+	*	1658371041	0
+	"	4	19
+	^	4	20
+	.	4	14
+	+	2	18
+	+	2	0
+	+	2	19
+	+	5	16
+	+	7	18
+	+	3	37
+	+	3	41
+	+	2	0
+	+	9	17
+	+	8	14
+	+	2	19
+	+	5	0
+	+	5	207
+	+	5	16
+	+	2	14
+	+	3	36
+	+	5	11
+	+	3	28
+	+	3	18
+	+	2	14
+	+	3	36
+	+	2	14
+	+	3	36
+	+	2	14
+	+	3	36
+	+	3	32
+	+	7	18
+	+	5	0
+	+	3	0
+	+	5	16
+	+	2	14
+	+	3	18
+	+	5	12
+	+	4	14
+	+	5	11
+	+	4	14
+	+	5	11
+	+	5	0
+	+	2	14
+	+	3	24
+	+	2	14
+	+	3	18
+	+	5	11
+	+	4	14
+
 > ~/.config/i3/config
-	*	1658277148	0
-	"	200	17
-	^	201	23
-	.	201	22
-	+	209	49
-	+	208	51
-	+	209	51
-	+	208	0
-	+	206	24
-	+	207	24
-	+	208	24
+	*	1658371032	0
+	"	201	22
+	^	200	18
+	.	201	17
 	+	209	24
 	+	207	24
 	+	208	24
@@ -437,6 +480,111 @@ $
 	+	165	0
 	+	200	17
 	+	201	22
+	+	200	12
+	+	201	17
+	+	202	11
+	+	200	12
+	+	201	17
+	+	202	17
+	+	201	17
+
+> ~/.config/polybar/modules/network-base.ini
+	*	1658370549	0
+	"	9	0
+	^	9	0
+	.	8	0
+	+	6	61
+	+	3	40
+	+	6	0
+	+	5	45
+	+	5	0
+	+	5	15
+	+	3	12
+	+	8	0
+
+> ~/.config/polybar/modules/wlan.ini
+	*	1658370534	0
+	"	7	17
+	^	7	18
+	.	10	18
+	+	8	0
+	+	7	0
+	+	8	32
+	+	4	1
+	+	5	27
+	+	10	0
+	+	9	0
+	+	10	18
+
+> ~/.config/polybar/modules/eth.ini
+	*	1658370472	0
+	"	4	0
+	^	5	32
+	.	5	31
+	+	7	0
+	+	4	0
+	+	7	0
+	+	8	44
+	+	8	0
+	+	7	0
+	+	4	40
+	+	7	18
+	+	4	29
+	+	7	18
+	+	4	0
+	+	6	0
+	+	4	0
+	+	6	26
+	+	5	0
+	+	6	0
+	+	5	31
+
+> ~/.config/polybar/modules/pulseaudio.ini
+	*	1658370378	0
+	"	1	0
+	^	5	24
+	.	5	24
+	+	5	0
+	+	4	0
+	+	5	24
+
+> ~/.config/polybar/modules/test.ini
+	*	1658369881	0
+	"	16	31
+	^	15	89
+	.	15	88
+	+	1	11
+	+	7	18
+	+	10	15
+	+	3	0
+	+	7	0
+	+	10	8
+	+	5	0
+	+	3	50
+	+	10	46
+	+	11	62
+	+	12	50
+	+	12	0
+	+	11	1
+	+	12	44
+	+	13	1
+	+	14	62
+	+	15	29
+	+	15	31
+	+	15	0
+	+	15	82
+	+	15	0
+	+	15	88
+
+> ~/.config/polybar/modules/nightlight.ini
+	*	1658368685	0
+	"	1	0
+
+> ~/.config/autostart
+	*	1658278730	0
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/dev/testex/.gitignore
 	*	1658267279	0
@@ -668,34 +816,6 @@ $
 	*	1658197306	0
 	"	1	0
 
-> ~/.config/polybar/modules/test.ini
-	*	1658197129	0
-	"	1	0
-	^	15	89
-	.	15	88
-	+	1	11
-	+	7	18
-	+	10	15
-	+	3	0
-	+	7	0
-	+	10	8
-	+	5	0
-	+	3	50
-	+	10	46
-	+	11	62
-	+	12	50
-	+	12	0
-	+	11	1
-	+	12	44
-	+	13	1
-	+	14	62
-	+	15	29
-	+	15	31
-	+	15	0
-	+	15	82
-	+	15	0
-	+	15	88
-
 > ~/.bashrc
 	*	1658197045	0
 	"	23	28
@@ -786,46 +906,12 @@ $
 	.	17	0
 	+	17	0
 
-> ~/.config/polybar/colors.ini
-	*	1658031664	0
-	"	1	0
-	^	8	18
-	.	8	17
-	+	8	17
-
-> ~/.config/polybar/modules/wlan.ini
-	*	1658031623	0
-	"	6	29
-	^	6	32
-	.	6	32
-	+	6	0
-	+	5	0
-	+	6	32
-
-> ~/.config/polybar/modules/eth.ini
-	*	1658031581	0
-	"	5	29
-	^	5	32
-	.	5	32
-	+	5	0
-	+	4	0
-	+	5	32
-
 > ~/.config/polybar/modules/filesystem.ini
 	*	1658031430	0
 	"	7	27
 	^	7	31
 	.	7	31
 	+	7	31
-
-> ~/.config/polybar/modules/pulseaudio.ini
-	*	1658031251	0
-	"	5	23
-	^	5	24
-	.	5	24
-	+	5	0
-	+	4	0
-	+	5	24
 
 > ~/.config/polybar/modules/memory.ini
 	*	1658031059	0

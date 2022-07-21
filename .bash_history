@@ -505,3 +505,9 @@ ls
 mv Images images
 cd
 mmls image.raw 
+dotix status
+dotix add .
+dotix status
+dotix commit -a -m "i3 colors"
+dotix status
+dotix push origin main
